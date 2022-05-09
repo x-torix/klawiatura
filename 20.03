@@ -20,9 +20,8 @@
                  document.body.appendChild(btn);
              }
              
-        document.addEventListener("click", myFunction);
-        function myFunction() {
-        document.getElementById("demo").innerHTML};
+         document.addEventListener('click', e => { console.log(e)
+         });
     </script>
 
 
